@@ -10,7 +10,7 @@ export default function Providers({ children }) {
             dark:text-gray-200 
             text-gray-700 
             transition-colors 
-            duration-300 min-h-screen 
+            duration-300 min-h-screen
             select-none">
                 {children}
             </div>
