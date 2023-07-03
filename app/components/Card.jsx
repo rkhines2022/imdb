@@ -10,7 +10,7 @@ export default function Card({ result }) {
     transition-shadow duration-200 group">
       <Link href={`/movie/${result.id}`}>
         <Image
-          src={`https://image.tmdb.org/t/p/original/${result.backdrop_path || result.poster_path
+          src={`https://image.tmdb.org/t/p/original/${result.backdrop_path
             }`}
           width={500}
           height={300}
@@ -25,7 +25,7 @@ export default function Card({ result }) {
           }
           placeholder="blur"
           blurDataURL="/spinner.svg"
-          alt="image is not available">
+          alt="no image available">
         </Image>
 
         <div className="p-2">

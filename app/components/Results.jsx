@@ -9,7 +9,7 @@ export default function Results({ results }) {
         2xl:grid-cols-5
         max-w-6xl
         mx-auto
-        p-6">
+        py-6">
             {results.map((result) => (
                 <Card key={result.id} result={result} />
             ))}
